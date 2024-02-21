@@ -1,1 +1,0 @@
-package problems.designpattern.singleton;
