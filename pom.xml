@@ -10,5 +10,6 @@
 		<module>singleton_design_pattern</module>
 		<module>builder_design_pattern</module>
 		<module>prototype_design_pattern</module>
+		<module>factory_design_pattern</module>
 	</modules>
 </project>
