@@ -11,5 +11,6 @@
 		<module>builder_design_pattern</module>
 		<module>prototype_design_pattern</module>
 		<module>factory_design_pattern</module>
+		<module>abstract_factory_design_pattern</module>
 	</modules>
 </project>
