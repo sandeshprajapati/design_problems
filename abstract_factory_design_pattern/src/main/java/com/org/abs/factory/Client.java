@@ -22,7 +22,7 @@ public class Client {
 			mysqlTransaction.commit();
 			mysqlConnection.close();
 		} catch (Exception e) {
-			mysqlConnection.close();
+			mysqlTransaction.rollback();
 		}
 
 		DatabaseFactory postgreDBFactory = factory.getFactory("POSTGRE");
@@ -36,7 +36,7 @@ public class Client {
 			postgreTransaction.commit();
 			postgreConnection.close();
 		} catch (Exception e) {
-			postgreConnection.close();
+			postgreTransaction.rollback();
 		}
 	}
 }
