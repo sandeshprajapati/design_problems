@@ -12,5 +12,6 @@
 		<module>prototype_design_pattern</module>
 		<module>factory_design_pattern</module>
 		<module>abstract_factory_design_pattern</module>
+		<module>adapter_design_pattern</module>
 	</modules>
 </project>
