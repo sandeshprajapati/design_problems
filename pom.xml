@@ -14,5 +14,6 @@
 		<module>abstract_factory_design_pattern</module>
 		<module>adapter_design_pattern</module>
 		<module>decorator_design_pattern</module>
+		<module>strategy_design_pattern</module>
 	</modules>
 </project>

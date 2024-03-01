@@ -14,7 +14,7 @@ public class PizzaCostCalculator {
 
 		BasePizza basePizza = new BasePizza();
 
-		Item margheritaPizza = new MargheritaPizza(basePizza);
+		BasePizza margheritaPizza = new MargheritaPizza(basePizza);
 		System.out.println("Cost of Margherita Pizza: $" + margheritaPizza.cost());
 
 		// Add Extra Cheese to the Margherita Pizza

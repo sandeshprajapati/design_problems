@@ -1,7 +1,7 @@
 package com.org.decorator.item;
 
-public class MargheritaPizza extends BasePizza {
 
+public class MargheritaPizza extends BasePizza {
 	BasePizza pizza;
 
 	public MargheritaPizza(BasePizza pizza) {
