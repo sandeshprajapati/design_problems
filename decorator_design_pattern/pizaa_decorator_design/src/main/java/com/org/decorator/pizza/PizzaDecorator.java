@@ -1,4 +1,4 @@
-package com.org.decorator;
+package com.org.decorator.pizza;
 
 import com.org.decorator.item.Item;
 

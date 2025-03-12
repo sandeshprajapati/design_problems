@@ -4,7 +4,7 @@ public class BasePizza implements Item {
 
 	@Override
 	public String getDescription() {
-		return "Pizza";
+		return "BasePizza";
 	}
 
 	@Override

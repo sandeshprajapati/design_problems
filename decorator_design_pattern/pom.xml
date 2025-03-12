@@ -4,5 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.org.decorator</groupId>
 	<artifactId>decorator_design_pattern</artifactId>
-	<version>0.1.5-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>pizaa_decorator_design</module>
+		<module>coffee_shop_design</module>
+	</modules>
 </project>

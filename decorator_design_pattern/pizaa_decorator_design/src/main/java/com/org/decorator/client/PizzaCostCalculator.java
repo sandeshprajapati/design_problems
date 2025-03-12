@@ -1,11 +1,11 @@
 package com.org.decorator.client;
 
-import com.org.decorator.ExtraCheeseDecorator;
-import com.org.decorator.VeggieToppingsDecorator;
 import com.org.decorator.item.BasePizza;
 import com.org.decorator.item.Item;
 import com.org.decorator.item.MargheritaPizza;
 import com.org.decorator.item.PepperoniPizza;
+import com.org.decorator.pizza.ExtraCheeseDecorator;
+import com.org.decorator.pizza.VeggieToppingsDecorator;
 
 public class PizzaCostCalculator {
 	public static void main(String[] args) {
